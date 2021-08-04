@@ -1,0 +1,12 @@
+* {background-color: #F3EAC0;}
+
+header {
+    border: solid 1px #5E376D;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
