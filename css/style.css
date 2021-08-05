@@ -1,12 +1,54 @@
-* {background-color: #F3EAC0;}
+* {
+    background-color: #C197D2;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
 
 header {
-    border: solid 1px #5E376D;
-    padding: 20px;
+    background-color: ##C197D2;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     text-align: center;
-}
+    border: solid 2px black;}
 
 nav ul li {
     list-style: none;
-    display: inline;
-}
+    display: inline;}
+
+p {
+    background-color: #C197D2;
+    border: solid 2px black;
+    color: #3F3E40;
+    line-height: 1.4em;
+    float: left;
+    width:60%;
+    padding: 20px;}
+
+aside {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    width: max-content;}
+
+.bw {
+    filter: grayscale(100%)}
+
+.bw:hover {
+    filter: grayscale(0%)}
+
+iframe {
+    border: solid 2px black;
+    padding: 20px;
+    align-content: center;}
+
+p {
+    background-color: #C197D2;
+    border: solid 2px black;
+    color: #3F3E40;
+    line-height: 1.4em;
+    float: left;
+    width:60%;
+    padding: 20px;}
+
+aside2 {
+    float: right;
+    padding: 20px;
+    width: max-content;}
